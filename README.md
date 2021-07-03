@@ -1,6 +1,11 @@
 # REST API Example to Challenge Puzzle
 
-This example shows how to implement a **REST API with TypeScript** using [Express](https://expressjs.com/) and [Prisma Client](https://github.com/prisma/prisma2/blob/master/docs/prisma-client-js/api.md). 
+This example shows how to implement a **REST API with TypeScript** using [Express](https://expressjs.com/) and [Prisma Client](https://github.com/prisma/prisma2/blob/master/docs/prisma-client-js/api.md) to resolve challenge. 
+
+## This use a Bearer Auth
+Bearer auth, or token authentication, is an HTTP authentication scheme which comprises security tokens called bearer tokens. The token is usually a cryptic string, and is generated in response to a successful login on the part of a user.
+
+A client must include this token in the Authorization header when making requests to any protected resource on the server. As I have stated I use JWT tokens but of course you can use any type of token you choose.
 
 ## How to use
 
